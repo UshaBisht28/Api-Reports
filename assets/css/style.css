@@ -9,7 +9,7 @@
   --theme-button-hover-text-color: #1e1e1e;
   --theme-button-pressed-color: #e7f7fe;
   --theme-button-pressed-text-color: #1e1e1e;
-  --theme-heading: 24px;
+  --theme-heading: 2rem;
   --theme-letter-spacing: 1px;
   --theme-line-height: 1.5;
   --theme-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
@@ -19,6 +19,14 @@
 
 a {
   text-decoration: none;
+}
+
+.theme-sub-heading {
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  margin: 0px;
 }
 
 /* header start */
@@ -42,20 +50,127 @@ a {
   font-weight: bold;
   text-align: center;
 }
-.banner-content{
+
+.banner-content {
   position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
-.purchase-btn{
-  background-color:var(--theme-button-color) ;
-  font-size: 1rem;
+
+.purchase-btn {
+  background-color: var(--theme-button-color);
+  font-size: 1.05rem;
+  color: #000;
+  font-weight: 500;
+  width: 200px;
+  line-height: 40px;
+  letter-spacing: var(--theme-letter-spacing);
+  box-shadow: var(--theme-box-shadow);
 }
+
 /* banner image end */
 
 
 /* products start */
-.product-list{display: grid;grid-template-columns: repeat(3, 1fr) ;}
-.product-list .item{border: 1px solid #000;padding: 10px;}
+.products-list-section {
+  background: var(--theme-color);
+  padding: 4rem;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.product-list .item {
+  border: 0.1rem solid #00000026;
+  padding: 10px;
+  border-radius: 0.5rem;
+}
+
 /* products end */
+
+/* Platform Support Start*/
+.our-support {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.our-support .item {}
+
+/* Platform Support end */
+
+/* western-astrology-section  start*/
+.western-astrology-section {
+  background: #66e8e6;
+  padding: 4rem;
+  border-top-left-radius: 4rem;
+  border-bottom-right-radius: 4rem;
+  width: 50%;
+  transition: .3s;
+}
+.western-astrology-section:hover{
+  transform: translateY(-4px);
+}
+.tropical-span-head {
+  color: #fff;
+  font-size: 1rem;
+  display: block;
+  text-align: center;
+  
+}
+.western-start-btn{
+  display: block;
+    text-align: center;
+    color: #fff;
+    background: #000;
+    border-radius: 0.4rem;
+    line-height: 40px;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    letter-spacing: .2rem;
+}
+/* western-astrology-section end */
+
+/* indian-astrology-section start */
+.indian-astrology-section {
+  background: #df91c8;
+  padding: 4rem;
+  border-top-right-radius: 4rem;
+  border-bottom-left-radius: 4rem;
+  width: 50%;
+  margin: 0 50%;
+  transition: .3s; ;
+}
+.indian-astrology-section:hover{
+  transform: translateY(-4px);
+}
+.vedic-span-head {
+  color: #fff;
+  font-size: 1rem;
+  display: block;
+  text-align: center;
+}
+.indian-start-btn{
+  display: block;
+    text-align: center;
+    color: #fff;
+    background: #000;
+    border-radius: 0.4rem;
+    line-height: 40px;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    letter-spacing: .2rem;
+}
+/* indian-astrology-section end */
+
+/* demo-schedule-section start */
+.demo-schedule-section{}
+/* demo-schedule-section end */

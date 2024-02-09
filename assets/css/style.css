@@ -1,176 +1,1361 @@
-:root {
-  --theme-color: #e7f7fe;
-  --theme-bg-color: #1e1e1e;
-  --theme-text-color: #e7f7fe;
-  --theme-border-color: #e7f7fe;
-  --theme-button-color: #e7f7fe;
-  --theme-button-text-color: #1e1e1e;
-  --theme-button-hover-color: #e7f7fe;
-  --theme-button-hover-text-color: #1e1e1e;
-  --theme-button-pressed-color: #e7f7fe;
-  --theme-button-pressed-text-color: #1e1e1e;
-  --theme-heading: 2rem;
-  --theme-letter-spacing: 1px;
-  --theme-line-height: 1.5;
-  --theme-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-  --theme-box-shadow-hover: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+/* vietnamese */
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(../fonts/quicksand/6xKtdSZaM9iE8KbpRA_hJFQNcOM.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
 
+/* latin-ext */
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(../fonts/quicksand/6xKtdSZaM9iE8KbpRA_hJVQNcOM.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(../fonts/quicksand/6xKtdSZaM9iE8KbpRA_hK1QN.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* vietnamese */
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/quicksand/6xKtdSZaM9iE8KbpRA_hJFQNcOM.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/quicksand/6xKtdSZaM9iE8KbpRA_hJVQNcOM.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/quicksand/6xKtdSZaM9iE8KbpRA_hK1QN.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* vietnamese */
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/quicksand/6xKtdSZaM9iE8KbpRA_hJFQNcOM.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/quicksand/6xKtdSZaM9iE8KbpRA_hJVQNcOM.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/quicksand/6xKtdSZaM9iE8KbpRA_hK1QN.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* vietnamese */
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/quicksand/6xKtdSZaM9iE8KbpRA_hJFQNcOM.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/quicksand/6xKtdSZaM9iE8KbpRA_hJVQNcOM.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/quicksand/6xKtdSZaM9iE8KbpRA_hK1QN.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* vietnamese */
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/quicksand/6xKtdSZaM9iE8KbpRA_hJFQNcOM.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/quicksand/6xKtdSZaM9iE8KbpRA_hJVQNcOM.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/quicksand/6xKtdSZaM9iE8KbpRA_hK1QN.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background: #fdfeff82;
+  
 }
 
 a {
   text-decoration: none;
 }
-
-.theme-sub-heading {
-  text-align: center;
-  font-size: 2rem;
-  letter-spacing: .1rem;
-  font-weight: bold;
-  margin: 0px;
+h4{
+  font-size: 26px !important;
+}
+.tnc-text {
+  text-align: right;
+  font-size: 1.02rem;
+  font-weight: 500;
 }
 
-/* header start */
+/* banner css start */
+.banner-container {
+  background: #fff;
+  box-shadow: 0px 3px 21px 0px rgba(89, 100, 255, 0.08);
+  padding: 2rem;
+  min-height: 45rem;
+    height: 100%;
+}
 
-/* header end */
+.banner-slider {
+  display: flex;
+  align-items: center;
+}
 
-/* banner image start */
-.banner-section {
-  background-image: url('../image/bg.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+.banner-title {
+  font-size: 2.4rem;
+  width: 90%;
+}
+
+.learn-more-btn {
+  box-shadow: 0px 3px 21px 0px rgba(89, 100, 255, 0.08);
+  font-size: 1.4rem;
+  text-align: center;
+  background: linear-gradient(90deg, #FFA835 -3.85%, #FA3DCC 97.3%, #FA3AD0 100%);
+  color: #fff;
+  width: 12rem;
+  padding: 0.5rem;
+  margin: 3rem 0;
+  border-radius: 0.4rem;
+  display: block;
+  font-weight: bold;
+}
+
+.banner-subtitle {
+  font-size: 1rem;
+  line-height: 1.9rem;
+  font-weight: bold;
+}
+
+.media-img {
+  opacity: .6;
+}
+.banner-list{
+  list-style: none;
+  padding: 24px 0px;
+  margin: 0;
+}
+.banner-list-item{
+  font-size: 1.2rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+/* banner css start */
+
+
+/* media-section css start */
+.media-containe {
+  position: relative;
+}
+.media-container{
+  position: relative;
+}
+.media-content {
+  background: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  position: absolute;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 3px 21px 0px rgba(89, 100, 255, 0.08);
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -70px;
+}
+
+/* media-section css end */
+
+/* feature-section css start*/
+.features-title {
+  font-weight: bold;
+  font-size: 1.25rem;
+  text-transform: capitalize;
+}
+
+.app-features-container {
+  padding: 2rem;
+  background-image: url('../image/bg/pro-bg.png');
   background-size: cover;
-  min-height: 400px;
+  background-repeat: no-repeat;
+}
+
+.features-item {
+  border-radius: 1rem;
+  position: relative;
+  padding: 30px 0 30px;
+  box-shadow: 0px 3px 21px 0px rgba(89, 100, 255, 0.08);
+  overflow: hidden;
+  background: #fff;
+  width: 480px;
+  margin-bottom: 1rem
+}
+
+.features-item:after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 12px;
+  border-radius: 0 15px 15px 0;
+  background: linear-gradient(90deg, #ff7369 0%, #ffb06d 100%);
+  transition: all 300ms linear;
+  top: 0;
+  right: 0;
+}
+
+.features-item:nth-child(2):after {
+  background: linear-gradient(180deg, #40CCFC 0%, #1AECF5 100%);
+  transition: all 300ms linear;
+
+}
+
+.features-item:nth-child(3):after {
+  background: linear-gradient(90deg, #9255CE 0%, #BE60FF 100%);
+  transition: all 300ms linear;
+}
+
+.features-item:nth-child(4):after {
+  background: linear-gradient(180deg, #40CCFC 0%, #1AECF5 100%);
+  transition: all 300ms linear;
+}
+
+.features-item:nth-child(4),
+.features-item:nth-child(2) {
+  margin-left: 3rem;
+}
+
+.features-item:hover::after {
+  width: 100%;
+  transition: all 300ms linear;
+}
+
+.app-features-title {
+  width: 14rem;
+  margin: 6rem auto 0;
+  padding: 0.2rem;
+  border-radius: 0.6rem;
+  background: linear-gradient(90deg, #ff7369 0%, #ffb06d 100%);
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.app-features-subtitle {
+  margin: 0;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0.3rem;
+  letter-spacing: .2rem;
+  text-transform: capitalize;
+  margin-top: 0.6rem;
+}
+
+.features-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.features-item:hover .features-content {
+  z-index: 99;
+  color: #fff;
   position: relative;
 }
 
-.banner-heading {
-  font-size: var(--theme-heading);
-  letter-spacing: var(--theme-letter-spacing);
+.features-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+/* feature-section css end */
+
+/* Credit card download section css start */
+.credit-card-container{
+  background-image: url('../image/bg/Background-home3-1.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.credit-card-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 3rem;
+  padding: 2rem 0;
+}
+
+.credit-card-title {
+  font-size: 3rem;
+  line-height: 4.0rem;
+}
+
+.credit-card-span {
+  display: block;
+}
+
+.credit-entities {
+  background: linear-gradient(90deg, #FFA835 -3.85%, #FA3DCC 97.3%, #FA3AD0 100%);
+  color: #fff;
+  border-radius: 0.4rem;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+
+}
+
+.custm-row {
+  --bs-gutter-x: 2rem;
+  --bs-gutter-y: 2rem;
+  margin-top: .01rem;
+}
+
+.download-credit-app,
+.download-app {
+  background: linear-gradient(90deg, #FFA835 -3.85%, #FA3DCC 97.3%, #FA3AD0 100%);
+  color: #fff;
+  border-radius: 0.4rem;
+  font-weight: bold;
+  padding: 0.8rem;
+  width: 30%;
+  display: block;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 2rem 0;
+  border: none;
+}
+
+.download-app {
+  margin: 2rem auto;
+}
+
+/* Credit Card donwload section css end*/
+
+/* financial-heading css start */
+
+.financial-heading {
+  margin-top: 2rem;
+}
+
+.financial-title {
+  font-size: 3rem;
+  margin: 0;
+  font-weight: bold;
+}
+/* financial-heading css end */
+
+/* recharge css start */
+
+.recharge-bill {
+  background: #fff;
+  box-shadow: 0px 3px 21px 0px rgba(89, 100, 255, 0.08);
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-top: 3rem;
+}
+
+.recharge-bill-subtitle {
+  padding: 3px;
+  margin: 0;
+  border-radius: 0.6rem;
+  background: linear-gradient(180deg, #9255CE 0%, #BE60FF 100%);
+  color: #ffffff;
+  width: 310px;
+  display: block;
+  font-size: 22px;
   font-weight: bold;
   text-align: center;
 }
 
-.banner-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+.recharge-bill-title {
+  margin: 0;
+  font-size: 26px;
+  margin-top: 6px;
+  font-weight: bold;
 }
-
-.purchase-btn {
-  background-color: var(--theme-button-color);
-  font-size: 1.05rem;
-  color: #000;
+.recharge-bill-item{
+  width: 50%;
+}
+.recharge-bill-text{
+  font-size: 16px;
+  margin-top: 10px;
   font-weight: 500;
-  width: 200px;
-  line-height: 40px;
-  letter-spacing: var(--theme-letter-spacing);
-  box-shadow: var(--theme-box-shadow);
+}
+.recharge-bill-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-/* banner image end */
-
-
-/* products start */
-.products-list-section {
-  background: var(--theme-color);
-  padding: 4rem;
+.recharge-bill-list {
+  list-style: none;
+  padding: 0px;
 }
 
-.product-list {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+.recharge-bill-list-item {
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+
+/* recharge css end */
+
+/* investment-section css start */
+.card-apply-container {
+  display: flex;
+ /*  grid-template-columns: repeat(2, 1fr); */
+  align-items: center;
+}
+.credit-apply-item, .credit-apply-item2{
+  width: 50%;
+}
+.credit-card-list {
+  list-style: none;
+  padding: 0px;
+  /* margin-left: 5rem; */
+}
+
+.credit-card-list-item {
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+
+
+
+.apply-credit {
+  color: #000;
+  font-weight: bold;
+}
+
+.investment-container {
+  padding: 6rem 0;
+}
+
+.investment {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.credit-span {
+  background: linear-gradient(180deg, #40CCFC 0%, #1AECF5 100%);
+  color: #ffffff;
+  border-radius: 0.6rem;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  font-size: 22px;
+  width: 180px;
+  margin: 0;
+  margin-right: 0;
+  padding: 3px;
+}
+
+.investment-span {
+  background: linear-gradient(180deg, #9255CE 0%, #BE60FF 100%);
+  color: #ffffff;
+  border-radius: 0.6rem;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  font-size: 22px;
+  width: 130px;
+  margin: 0;
+  padding: 3px;
+}
+
+.invest-btn,
+.gold-btn,
+.apply-btn {
+  background: linear-gradient(90deg, #FFA835 -3.85%, #FA3DCC 97.3%, #FA3AD0 100%);
+  color: #fff;
+  border-radius: 0.4rem;
+  font-weight: bold;
+  padding: 0.8rem;
+  width: 50%;
+  display: block;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 3rem auto 0;
+}
+
+.invest-title,
+.gold-title {
+  font-size: 26px;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin: 0;
+  text-align: left;
+  margin-top: 10px;
+}
+
+
+
+.loan-span {
+  background: linear-gradient(180deg, #00FFF0 0%, #00D3C7 100%);
+  color: #ffffff;
+  border-radius: 0.6rem;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  font-size: 22px;
+  width: 220px;
+  margin: 0;
+  padding: 3px;
+}
+
+.invest-img {
+  margin-top: 2rem;
+}
+
+.loan-subtitle {
+  text-align: center;
+  font-size: 2rem;
+}
+
+
+
+.loan-entities {
+  background: linear-gradient(90deg, #FFA835 -3.85%, #FA3DCC 97.3%, #FA3AD0 100%);
+  color: #fff;
+  border-radius: 0.4rem;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+
+.download-credit {
+  margin: 0 !important;
+  margin-top: 3rem !important;
+}
+
+.card-apply-container,
+.inverst-card {
+  box-shadow: 0px 3px 21px 0px rgba(89, 100, 255, 0.08);
+  padding: 3rem;
+  border-radius: 1rem;
+  text-align: center;
+  background: #fff;
+}
+
+.card-apply-title {
+  font-size: 26px;
+  text-align: left;
+  margin-bottom: 2rem;
+  margin-top: 10px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.check-icons {
+  background: linear-gradient(90deg, #00fff0 0%, #00d3c7 100%);
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+.invest-text{
+  margin-top: 13px;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: justify;
+}
+/* investment-section css end */
+
+/* loan section css start */
+.loan-container {
+  margin-top: 2rem;
+  text-align: center;
+  background: #fff;
+  padding: 2rem;
+  box-shadow: 0px 3px 21px 0px rgba(89, 100, 255, 0.08);
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+
+}
+
+
+.loan-title {
+  font-size: 26px;
+  font-weight: bold;
+ /*  padding: 0 1rem; */
+  margin-top: 10px;
+  text-align: left;
+}
+
+.loan-list {
+  padding: 0;
+  list-style: none;
+  margin: 0px;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
   gap: 1rem;
 }
 
-.product-list .item {
-  border: 0.1rem solid #00000026;
-  padding: 10px;
-  border-radius: 0.5rem;
+.check-img {
+  margin-right: 0.6rem;
 }
 
-/* products end */
+.loan-list-item {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
 
-/* Platform Support Start*/
-.our-support {
-  display: flexbox;
+.loan-subtitle {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.loan-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.loan-entities {
+  background: linear-gradient(90deg, #FFA835 -3.85%, #FA3DCC 97.3%, #FA3AD0 100%);
+  color: #fff;
+  border-radius: 0.4rem;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+
+.download-credit {
+  margin: 0 !important;
+  margin-top: 3rem !important;
+  background: linear-gradient(90deg, #FFA835 -3.85%, #FA3DCC 97.3%, #FA3AD0 100%);
+  color: #fff;
+}
+
+.card-apply,
+.inverst-card {
+  box-shadow: 0px 3px 21px 0px rgba(89, 100, 255, 0.08);
+  padding: 3rem;
+  border-radius: 1rem;
+  text-align: center;
+  background: #fff;
+}
+
+
+/* loan section css end*/
+  /* credit-score-section css start */
+  .credit-score-section {
+    background: #fff;
+    padding: 3rem;
+    margin-top: 1rem;
+ /*    background-image: url(../image/bg/25102.jpg); */
+    background-size: cover;
+  }
+
+  .credit-score-title {
+    background: linear-gradient(180deg, #9255CE 0%, #BE60FF 100%);
+    color: #ffffff;
+    border-radius: 0.6rem;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    font-size: 22px;
+    width: 160px;
+    margin: 0;
+    padding: 3px;
+    text-transform: capitalize;
+  }
+
+  .credit-score-subtitle {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 33px;
+    width: 780px;
+    text-align: justify;
+    margin: 0 auto;
+    margin-top: 1rem;
+  }
+
+  .credit-subtitle {
+    font-size: 26px;
+    margin-top: 5px;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .credit-box {
+    text-align: center;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  /* credit-score-section css end */
+
+/* gift-card-container css start*/
+.gift-card-container {
+  background-image: url('../image/bg/bg-shape-2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 4rem;
+}
+
+.gift-card-section {
+  display: flex;
+  align-items: center;
+}
+
+.gift-card-title {
+  font-size: 4rem;
+  margin: 0;
+  line-height: 5rem;
+}
+
+.gift-card-item {
+  text-align: right;
+}
+
+.gift-card-span {
+  background: linear-gradient(90deg, #FFA835 -3.85%, #FA3DCC 97.3%, #FA3AD0 100%);
+  color: #fff;
+  border-radius: 0.4rem;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.gift-card-entities {
+  background: linear-gradient(90deg, #FFA835 -3.85%, #FA3DCC 97.3%, #FA3AD0 100%);
+  color: #fff;
+  border-radius: 0.4rem;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.gift-card-paragraph {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-top: 4rem;
+  text-transform: capitalize;
+  color: #4270f2;
+}
+
+.gift-card-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 2rem;
+  justify-content: end;
+}
+
+/* gift-card-container css end */
+
+/* shop-rewards-section css start */
+.shop-rewards-section {
+  padding: 6rem;
+  background: #fff;
+}
+
+.shop-heading {
+  font-size: 26px;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+.shop-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.shop-subtitle {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ff994a;
+}
+
+.shop-span {
+  background: linear-gradient(90deg, #ff7369 0%, #ffb06d 100%);
+  color: #ffffff;
+  border-radius: 0.6rem;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  font-size: 22px;
+  width: 180px;
+  margin: 0;
+  padding: 3px;
+}
+
+.shop-btn {
+  background: linear-gradient(90deg, #FFA835 -3.85%, #FA3DCC 97.3%, #FA3AD0 100%);
+  color: #fff;
+  border-radius: 0.4rem;
+  font-weight: bold;
+  padding: 0.6rem;
+  display: block;
+  width: 30%;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 2rem auto 0;
+  border: 1px solid #c3c1c17a;
+}
+
+/* 
+.shop-btn:hover {
+  background: #acb2f8;
+  color: #fff;
+  transition: 0.3s;
+} */
+
+.shop-list {
+  list-style: none;
+  padding: 0px;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: start;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.shop-list-item {
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+/* shop-rewards-section css end */
+
+/* flight section css start */
+.flight-container {
+    background-image: url('../image/bg/Background-home3-1.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 1rem;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+
+.flight-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 5rem;
+}
+
+
+.flight-subtitle {
+  margin: 0;
+  border-radius: 0.6rem;
+  background: linear-gradient(180deg, #40CCFC 0%, #1AECF5 100%);
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  width: 26rem;
+  font-size: 22px;
+  padding: 3px;
+}
+
+.flight-title {
+  text-align: left;
+  margin: 0;
+  color: #000;
+  font-size: 26px;
+  text-transform: capitalize;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+.flight-item {
+  text-align: center;
+}
+
+.flight-list {
+  padding: 0px;
+  list-style: none;
+  margin-top: 2rem;
+}
+
+.flight-list-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.1rem;
+  font-weight: 600;
+  color: #000;
+  font-size: 1.2rem;
+}
+
+.flight-icons {
+  background: linear-gradient(90deg, #00fff0 0%, #00d3c7 100%);
+  color: #fff;
+  padding: 1rem;
+  border-radius: 50%;
+  width: 1rem;
+  height: 1rem;
+}
+
+
+/* flight section css end */
+
+/* support-section css start */
+.support-section {
+  /* background-image: url('../image/bg/support-bg-1.png'); */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background: #f9f9f9;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  background: #fff;
+  box-shadow: 0px 3px 21px 0px rgba(89, 100, 255, 0.08);
+}
+
+.support-item {
+  text-align: center;
+  padding: 0 3rem;
+  border-right: 1px solid #edeff6;
+}
+
+.support-item:nth-child(3) {
+  border: none;
+}
+
+.support-subtitle {
+  font-size: 1rem;
+  margin: 0;
+  font-weight: bold;
+  padding-top: 1rem;
+}
+
+/* support-section css end */
+
+/* why-choose-us section css start */
+.why-choose-us {
+  padding: 2rem;
+  background: #fff;
+
+}
+
+.choose-us-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.choose-us-title {
+  background: linear-gradient(180deg, #00FFF0 0%, #00D3C7 100%);
+  color: #ffffff;
+  border-radius: 0.6rem;
+  font-weight: bold;
+  text-align: center;
+  font-size: 22px;
+  width: 200px;
+  padding: 3px;
+  display: block;
+}
+
+.choose-us-list {
+  display: flex;
+  gap: 1rem;
+  margin-top: 4rem;
+
+}
+
+
+.choose-us-subtitle {
+  margin: 0;
+  font-size: 2rem;
+  color: #636363;
+  padding-top: 14px;
+  font-weight: 700;
+  width: 500px;
+}
+
+.inner-title {
+  font-size: 2rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+.inner-subtitle {
+  font-size: 1rem;
+  color: #636363;
+  padding-top: 1rem;
+  font-weight: 700;
+}
+
+.choose-us-inner {
+  background: linear-gradient(90deg, #FF7369 0%, #FFB06D 100%);
+}
+/* why-choose-us section css end  */
+
+/* review-section css start */
+.review-title {
+  display: block;
+  background: linear-gradient(180deg, #00FFF0 0%, #00D3C7 100%);
+  color: #ffffff;
+  border-radius: 0.6rem;
+  font-weight: bold;
+  text-align: center;
+  font-size: 22px;
+  padding: 3px;
+  width: 120px;
+  text-transform: capitalize;
+  margin: 0 auto;
+}
+
+.review-subtitle {
+  text-align: center;
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  padding-top: 0.6rem;
+  font-weight: 700;
+}
+
+.review-box {
+  display: flex;
+  align-items: center;
+  margin-top: 4rem;
+  flex-direction: column;
+}
+
+.reviwe-point {
+  margin: 0;
+  font-size: 4rem;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 0 10px 40px 0 rgba(255, 132, 105, .5);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  border: 6px solid #ff776a;
 }
 
-.our-support .item {}
+.reviwe-text {
+  margin: 0;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 800;
+  text-transform: capitalize;
+  margin-top: 2rem;
 
-/* Platform Support end */
+}
 
-/* western-astrology-section  start*/
-.western-astrology-section {
-  background: #66e8e6;
-  padding: 4rem;
-  border-top-left-radius: 4rem;
-  border-bottom-right-radius: 4rem;
-  width: 50%;
-  transition: .3s;
+#Progresscontainer1,
+#Progresscontainer2,
+#Progresscontainer3 {
+  border-radius: 50%;
+  width: 200px;
+  position: relative;
+  box-shadow: 0px 4px 40px 0px rgba(255, 132, 105, 0.5);
+  background: transparent;
 }
-.western-astrology-section:hover{
-  transform: translateY(-4px);
+
+#Progresscontainer2 {
+  box-shadow: 0px 10px 40px 0px #E1CAF8;
 }
-.tropical-span-head {
+
+#Progresscontainer3 {
+  box-shadow: 0px 4px 30px 0px rgba(0, 255, 255, 0.6);
+}
+
+.progressbar-text {
+  color: #000 !important;
+  font-size: 3rem !important;
+  font-weight: bold !important;
+
+}
+
+path {
+  stroke-linecap: round;
+}
+
+.review-container {
+  margin-top: 3rem;
+}
+
+/* review-section css end */
+
+/* download-section css start */
+.download-app-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 8rem;
+}
+
+.download-title {
+  margin: 0;
+  font-size: 4rem;
+}
+
+.download-subtitle {
+  margin: 0;
+  font-size: 1rem;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  background: linear-gradient(90deg, #FFA835 -3.85%, #FA3DCC 97.3%, #FA3AD0 100%);
+  color: #fff;
+  border-radius: 0.4rem;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.app-store-icons {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+/* download-section css end */
+
+/* customers-container css start */
+.customers-container {
+  background-image: url('../image/bg/bg.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 28rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  background-position: center center;
+}
+
+.customers-section {
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 10%);
+  background: #f5f5f5;
+  border-radius: 1rem;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.happy-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+/* customers-container css end */
+
+
+/* footer css start */
+.footer-main {
+  background: linear-gradient(90deg, #2f057b 0%, #6441c1 100%);
+  padding: 3rem 2rem;
+}
+
+
+.footer-menu {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+  margin-top: 1rem;
+}
+
+.copyright {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #fff;
+  text-align: justify;
+  padding: 0.3rem 0;
+  margin: 1rem 0;
+}
+
+.menu-item {
+  color: #fff;
+  font-size: 1.2rem;
+  line-height: 3rem;
+}
+
+
+.inditab-span {
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+.inditab-logo {
+  background: #fff;
+  padding: 0.4rem;
+  border-radius: 0.4rem;
+
+}
+
+.bottom-bg {
+  border-top: 1px solid #fff;
+  margin-top: 5rem;
+}
+
+.follow-us {
+  font-size: 1.2rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+.social-media {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.social-icons {
+  width: 40px;
+  font-size: 2rem;
+  background: linear-gradient(90deg, #FFA835 -3.85%, #FA3DCC 97.3%, #FA3AD0 100%);
+  color: #fff;
+  padding: 0.4rem;
+  border-radius: 0.2rem;
+  margin-top: 1rem;
+}
+
+.foot-row {
+  margin-top: 2rem;
+  align-items: center;
+}
+
+.menu-title {
+  color: #fff;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.download-anchor {
+  margin-top: 1.6rem;
+  display: block;
+}
+
+.menu-item-footer {
   color: #fff;
   font-size: 1rem;
+  line-height: 1.4rem;
+  margin-bottom: 1.1rem;
   display: block;
-  text-align: center;
-  
+  text-align: justify;
+  width: 320px;
 }
-.western-start-btn{
-  display: block;
-    text-align: center;
-    color: #fff;
-    background: #000;
-    border-radius: 0.4rem;
-    line-height: 40px;
-    width: 50%;
-    margin: 0 auto;
-    font-size: 1.2rem;
-    letter-spacing: .2rem;
-}
-/* western-astrology-section end */
 
-/* indian-astrology-section start */
-.indian-astrology-section {
-  background: #df91c8;
-  padding: 4rem;
-  border-top-right-radius: 4rem;
-  border-bottom-left-radius: 4rem;
-  width: 50%;
-  margin: 0 50%;
-  transition: .3s; ;
-}
-.indian-astrology-section:hover{
-  transform: translateY(-4px);
-}
-.vedic-span-head {
-  color: #fff;
-  font-size: 1rem;
-  display: block;
-  text-align: center;
-}
-.indian-start-btn{
-  display: block;
-    text-align: center;
-    color: #fff;
-    background: #000;
-    border-radius: 0.4rem;
-    line-height: 40px;
-    width: 50%;
-    margin: 0 auto;
-    font-size: 1.2rem;
-    letter-spacing: .2rem;
-}
-/* indian-astrology-section end */
+.footer-menu .fa-map-location-dot,
+.fa-phone,
+.fa-envelope {
+  font-size: 1.4rem;
+  color: #ffffff;
+  margin-right: 1rem;
 
-/* demo-schedule-section start */
-.demo-schedule-section{}
-/* demo-schedule-section end */
+}
+/* footer css end */

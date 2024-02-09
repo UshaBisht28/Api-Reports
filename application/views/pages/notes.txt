@@ -1,1 +1,95 @@
-https://www.astrologyapi.com/
+#FF7268    
+#1AECF5
+#BE60FF
+#00D3C7
+
+linear-gradient(90deg, #ff7369 0%, #ffb06d 100%) orange
+linear-gradient(180deg, #40CCFC 0%, #1AECF5 100%) blue
+linear-gradient(180deg, #9255CE 0%, #BE60FF 100%) purple
+linear-gradient(180deg, #00FFF0 0%, #00D3C7 100%)
+
+for inditab
+
+Pay Education Fees
+Pay Rent
+Pay Vendor
+Pay GST
+
+Media *
+
+Recharge & Bill Payment***
+
+*****Investment
+Profit++
+Gold*******
+
+Borrowing
+Credit Card + Credit score
+Loans
+
+GiftCard *
+
+Shop & Earn
+
+Flight Booking *
+
+Agents
+
+ <div class="pxl-circle-svg">
+  <svg xmlns="http://www.w3.org/2000/svg" width="1920" height="337" viewBox="0 0 1920 337" fill="none">
+    <defs>
+      <linearGradient class="linear-dot1" id="grad-pxl_circle_svg-fe428f6-9354" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop class="stop1" offset="0%" style="stop-color:#40CCFC;stop-opacity:1"></stop>
+        <stop class="stop2" offset="100%" style="stop-color:#1AECF5;stop-opacity:1"></stop>
+      </linearGradient>
+      <linearGradient class="linear-dot2" id="grad1-pxl_circle_svg-fe428f6-9354" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop class="stop1" offset="0%" style="stop-color:#40CCFC;stop-opacity:1"></stop>
+        <stop class="stop2" offset="100%" style="stop-color:#1AECF5;stop-opacity:1"></stop>
+      </linearGradient>
+    <filter id="Sls054rg21" filterUnits="userSpaceOnUse" class="filter1"><feGaussianBlur in="SourceAlpha" stdDeviation="30"></feGaussianBlur><feOffset dx="0" dy="4" result="offsetblur"></feOffset><feFlood flood-color="rgba(0,255,255,0.6)"></feFlood><feComposite in2="offsetblur" operator="in"></feComposite><feComponentTransfer><feFuncA type="linear" slope="1"></feFuncA></feComponentTransfer><feMerge><feMergeNode></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge></filter><filter id="Sls054rg23" filterUnits="userSpaceOnUse" class="filter2"><feGaussianBlur in="SourceAlpha" stdDeviation="30"></feGaussianBlur><feOffset dx="0" dy="4" result="offsetblur"></feOffset><feFlood flood-color="rgba(0,255,255,0.1)"></feFlood><feComposite in2="offsetblur" operator="in"></feComposite><feComponentTransfer><feFuncA type="linear" slope="1"></feFuncA></feComponentTransfer><feMerge><feMergeNode></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge></filter></defs>
+    <g id="Layer_1" data-name="Layer 1">
+      <path opacity="0.4" d="M-9 6.49171C100.833 -10.8416 425.1 12.6917 843.5 245.492C1261.9 478.292 1735.5 222.825 1920 65.9917" stroke="#9F90FF" stroke-width="3"></path>    </g>
+  <desc>Created with Snap</desc><circle cx="490.57929531345127" cy="86.18305536114812" r="13" id="circle1" fill="url(#grad-pxl_circle_svg-fe428f6-9354)" filter="url('#Sls054rg21')" style="" class="dot" transform="matrix(1,0,0,1,0,0)"></circle><circle cx="1482.1216453165466" cy="298.2212328380879" r="13" id="circle2" fill="url(#grad1-pxl_circle_svg-fe428f6-9354)" filter="url('#Sls054rg23')" style="" class="dot" transform="matrix(1,0,0,1,0,0)"></circle></svg>    
+</div>
+
+
+https://demo.bravisthemes.com/digicove/home-digital-marketing-agency-one-page/
+https://demo.bravisthemes.com/digicove/home-app-landing/#
+https://demo.bravisthemes.com/digicove/case-studies-style1/
+https://demo.bravisthemes.com/digicove/home-app-landing/
+https://www.klarna.com/au/klarna-stores/
+
+https://themexriver.com/wp/gesto/home-4-onepage/
+https://themexriver.com/wp/gesto/home-9-onepage/
+https://www.klarna.com/au/klarna-stores/
+
+
+https://fonts.google.com/specimen/Qwigley
+https://fonts.google.com/specimen/Quicksand?query=quick
+
+
+
+/* Extra Small Devices (Phones) */
+@media only screen and (max-width: 575px) {
+  /* CSS styles for extra small devices go here */
+}
+
+/* Small Devices (Tablets) */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* CSS styles for small devices go here */
+}
+
+/* Medium Devices (Laptops, Desktops) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* CSS styles for medium devices go here */
+}
+
+/* Large Devices (Large Desktops, TVs) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* CSS styles for large devices go here */
+}
+
+/* Extra Large Devices (Extra Large Desktops, TVs) */
+@media only screen and (min-width: 1200px) {
+  /* CSS styles for extra large devices go here */
+}

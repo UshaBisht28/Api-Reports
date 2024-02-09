@@ -1,0 +1,241 @@
+/* Extra Small Devices (Phones) */
+@media only screen and (max-width: 575px) {
+
+  /* banner-container css start */
+  .banner-title {
+    font-size: 2rem;
+  }
+
+  .banner-slider {
+    flex-wrap: wrap;
+  }
+
+  /* banner-container css end */
+
+  /* media-container css start */
+  .media-content {
+    flex-wrap: wrap;
+  }
+
+  /* media-container css end */
+
+  /* app-features-container css start */
+  .features-container {
+    flex-wrap: wrap;
+    width: 100px;
+  }
+  .app-features-container{
+    padding: 0;
+  }
+  /* app-features-container css end */
+
+  /* credit-card-section css start */
+  .card-apply-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+
+  }
+
+  .credit-card-section {
+    flex-wrap: wrap;
+  }
+
+  .inidtab-img {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .card-apply-title {
+    white-space: inherit;
+  }
+
+  .credit-apply-item,
+  .credit-apply-item2 {
+    width: 100%;
+  }
+
+  .credit-box {
+    flex-wrap: wrap;
+  }
+
+  .credit-score-section {
+    padding: 1rem;
+  }
+
+  .credit-score-title {
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .credit-subtitle {
+    text-align: center;
+    font-size: 24px;
+  }
+
+
+  /* credit-card-section css end */
+
+  /* recharge-bill-section css start */
+  .recharge-bill-box {
+    flex-wrap: wrap;
+  }
+
+  .recharge-bill-item {
+    width: unset;
+  }
+
+  /* recharge-bill-section css end */
+
+  /* card-apply-container css start */
+  .invest-img {
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  /* card-apply-container css end */
+
+  /* loan-section css start */
+
+  .loan-section {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .loan-span {
+    width: 100%;
+  }
+
+  .loan-title {
+    text-align: center;
+  }
+
+  /* loan-section css end */
+
+  /* gift-card-container css start */
+  .gift-card-section {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .gift-card-box {
+    flex-wrap: wrap;
+  }
+
+  .gift-card-title {
+    font-size: 2rem;
+    margin: 0;
+    line-height: 2rem;
+  }
+
+  .gift-card-container {
+    padding: 2rem 0;
+  }
+
+  .gift-card-paragraph {
+    padding-top: 2rem;
+  }
+
+  /* gift-card-container css end */
+
+  /* shop-rewards-section css start */
+  .shop-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .shop-rewards-section {
+    padding: 0;
+    margin-top: 2rem;
+  }
+
+  .shop-img {
+    width: 200px;
+  }
+
+  /* shop-rewards-section css end */
+
+  /* flight-section css start */
+  .flight-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .flight-img {
+    width: 200px;
+  }
+
+  .flight-subtitle {
+    font-size: 1rem;
+    padding: 0.4rem;
+  }
+
+  .flight-subtitle {
+    width: 20rem;
+  }
+
+  .download-app {
+    margin: 1rem 0;
+    width: 100%;
+  }
+
+  .flight-title {
+    margin-top: 0.8rem;
+  }
+
+  /* flight-section css end */
+
+  /* support-section css start */
+  .support-section {
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+
+
+  /* support-section css end */
+
+  /* download-section css start */
+  .download-app-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .download-img {
+    width: 200px;
+  }
+
+  /* download-section css end */
+
+  .why-choose-us{
+padding: 0;
+  }
+  .choose-us-container{
+flex-wrap: wrap;
+  }
+  .choose-us-subtitle{
+    font-size: 18px;
+    width: 100%;
+  }
+  .choose-us-img{
+    width: 100%;
+  }
+  .support-item{
+    border: none;
+  }
+  /* footer css start*/
+  .footer-main {
+    padding: 1rem;
+  }
+
+  /* footer css end */
+  /* CSS styles for extra small devices go here */
+}
+
